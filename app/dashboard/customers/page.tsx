@@ -1,3 +1,10 @@
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  // title: 'Invoices | Acme Dashboard',
+  title: 'Customers',
+};
+
 export default async function Page() {
   console.log('Loading customers page...');
   await new Promise((resolve) => setTimeout(resolve, 3000));
